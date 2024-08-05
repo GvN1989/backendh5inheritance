@@ -1,9 +1,9 @@
-public class Creditcard {
+public abstract class CreditCard {
 
     private int debt;
 
 
-    public Creditcard(int debt) {
+    public CreditCard(int debt) {
         this.debt=debt;
     }
 
